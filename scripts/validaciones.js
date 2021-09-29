@@ -11,5 +11,6 @@ function validar_contrasena() {
     return string.length >= 6 ? expresion.test(string) : false
     //console.log("validacion contraseña: ", result)
 }
+
 module.exports.validar_nombreUsuario=validar_nombreUsuario;
 module.exports.validar_contrasena=validar_contrasena;
