@@ -1,0 +1,30 @@
+﻿
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="validaciones.js"></script>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <title>Registro</title>
+</head>
+
+<body>
+    <section class="form-section3">
+        <h2>Registro</h2>
+        <form id="form_registro_usuario" name="form_registro_usuario" action="registro.html" method="post">
+            <label for="nombreusu" class="control">Nombre de usuario:</label><br>
+            <input type="text" id="in_usuario" name="in_usuario" class="controlt" value="" onchange="validar_nombreUsuario()"><br>
+            <label for="contra" class="control">Contraseña:</label><br>
+            <input type="password" id="in_contrasena" name="in_contrasena" class="controlt" value="" onchange="validar_contrasena()"><br>
+            <!-- Un botón que diga Login, que envíe la info suministrada. -->
+            <button id="btn_enviar_registro" name="btn_enviar_registro" >
+                <input type="submit" id="btn-submit-form" name="btn-submit-form" value="Registrar">
+            </button>
+        </form>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,71 @@
+﻿
+/* Se hace una edición para todo. */
+* {
+    font-family: 'Lucida Sans Unicode';
+    margin: 0; /* Con margin 0 se quitan las márgenes. */
+    padding: 0; /* padding 0 organiza el botón e input de registrar en la página de index.html. Lo pone más bonito. */
+    box-sizing: border-box; /* Esto quiere decir que la página va a tomar el ancho del dispositivo en el que se abra. */
+}
+
+/* Se edita el h1. */
+h1 {
+    background: #3b45ce98; /* Color de fondo. */
+    font-size: 35px; /* Tamaño del título h1. */
+    color: white; /* Color de letra. */
+    text-align: center; /* Alineación del texto. */
+    border-top-left-radius: 15px; /* Pone suave el borde arriba-izq. */
+    border-top-right-radius: 15px;
+}
+
+/* Se edita el h2. */
+h2 {
+    background: #3b45ce98; /* Color de fondo. */
+    font-size: 25px; /* Tamaño del título h1. */
+    color: white; /* Color de letra. */
+    text-align: center; /* Alineación del texto. */
+    border-top-left-radius: 15px; /* Pone suave el borde arriba-izq. */
+    border-top-right-radius: 15px;
+}
+
+/* Se edita el primer cuadro o <section> */
+.form-section1{
+    width: 1000px; /* Es el ancho del cuadro. */
+    height: 500px; /* Es la altura del cuadro. */
+    background: #dadfe9d7; /* Color de fondo. */
+    margin: 10px; /* Es la margen respecto al borde de la página */
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+/* Se edita el segundo cuadro o <section> */
+.form-section2{
+    width: 200px; /* Es el ancho del cuadro. */
+    height: 400px; /* Es la altura del cuadro. */
+    background: #b7bfd1d0; /* Color de fondo. */
+    margin: 10px;
+    border-radius: 15px;
+}
+
+/* Se edita el tercer cuadro o <section> */
+.form-section3{
+    width: 300px; /* Es el ancho del cuadro. */
+    height: 200px; /* Es la altura del cuadro. */
+    background: #b7bfd1d0; /* Color de fondo. */
+    margin: 10px;
+    border-radius: 15px;
+}
+
+/* Se edita el controlt que es para editar los <input> y el <select>. */
+.controlt{
+    width: 80%; /* Con el 100% el cuadro de texto ocupa todo el cuadro donde se encuentra. */
+    height: 30px; /* Altura del cuadro de texto. */
+    background: #f7f4f4e0;
+    margin-bottom: 5px; /* Pone margen debajo del cuadro. */
+    margin-left: 4px; /* Pone margen a la izquiera del cuadro. */
+    border-radius: 10px; /* Redondea esquinas del cuadro de texto. */
+}
+
+/* Se edita el control que es para editar los <label>. */
+.control{
+    margin-left: 4px;
+}
