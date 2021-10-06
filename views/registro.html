@@ -6,7 +6,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="../scripts/validaciones.js"></script>
     <script src="../scripts/registro.js"></script>
     <link rel="stylesheet" type="text/css" href="../styles/estilos.css">
     <title>Registro</title>
@@ -15,14 +14,14 @@
 <body>
     <section class="form-section3">
         <h2>Registro</h2>
-        <form id="form_registro_usuario" name="form_registro_usuario" action="registro.html" onsubmit="agregarRegistro()" method="post">
+        <form id="form_registro_usuario" name="form_registro_usuario" action="registro.html" method="post">
             <label for="nombreusu" class="control">Nombre de usuario:</label><br>
             <input type="text" id="in_usuario" name="in_usuario" class="controlt" value="" onchange="validar_nombreUsuario()"><br>
             <label for="contra" class="control">Contraseña:</label><br>
             <input type="password" id="in_contrasena" name="in_contrasena" class="controlt" value="" onchange="validar_contrasena()"><br>
             <!-- Un botón que diga Login, que envíe la info suministrada. -->
    
-            <input type="submit" id="btn-submit-form" name="btn-submit-form" value="Registrar">
+            <input type="submit" id="btn-submit-form" name="btn-submit-form" value="Registrar" >
            
         </form>
     </section>
